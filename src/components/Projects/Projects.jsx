@@ -80,7 +80,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        href={url || 'https://github.com/therajesh24/'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
