@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'hero-profile.jpg',
   paragraphOne:
     'I’m a fullstack software developer from Bangalore, India. Currently, I am a part of the TCS family. I’ve been designing and developing solutions since 2020. I’ve mostly worked with JavaScript',
   paragraphTwo:
@@ -30,6 +30,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'Project0.JPG',
+    title: 'Crypto Tracker',
+    info: 'A real time web application that tracks the Crypto Currency prices by market capital.',
+    info2: '',
+    url: 'https://crypto-tracker24.netlify.app/',
+    repo: 'https://github.com/therajesh24/crypto-tracker', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project1.jpg',
@@ -64,7 +73,7 @@ export const contactData = {
   cta: "Super impressed by my elevator pitch? Let's Talk",
   mailBtn: 'Mail me',
   callBtn: 'Over phone',
-  email: 'accessrajeshd@gmail.com',
+  email: 'drajesh4041@gmail.com',
   number: '+918367455135',
 };
 
