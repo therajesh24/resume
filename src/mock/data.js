@@ -41,6 +41,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'note-pad.JPG',
+    title: 'Note-Pad Application',
+    info: 'Note taking web application with save, update, delete, search features.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/therajesh24/Note-Pad-Application', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project1.jpg',
     title: 'Voice Controlled Robot With Google Assistant',
     info: 'Designed & developed the robot which is controlled using Google Assistance. It can also be controlled with the Secure mobile application configured.',
